@@ -11,6 +11,6 @@ export class AggregationsType {
   @Field(() => Int)
   completed: number;
 
-  @Field(() => Int, { deprecationReason: 'Most use completed instead' })
+  @Field(() => Int, { deprecationReason: 'Most use completed instead.' })
   totalTodosCompleted: number;
 }
